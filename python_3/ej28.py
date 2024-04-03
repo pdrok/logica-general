@@ -3,18 +3,18 @@
 # en D4,D3,D2,D1 y los de B en W4,W3,W2,W1. Larespuesta se debe dar en las
 # posiciones A5,A4,A3,A2,A1 respectivamente.
 
-"--- Dos valores de 4 digitos ---"
-print "Ingrese un valor de 4 digitos para A:",
-A = int(raw_input())
+print("--- Dos valores de 4 digitos ---")
+print("Ingrese un valor de 4 digitos para A:")
+A = int(input())
 
 while A < 1000 or A > 9999:
-    A = int(raw_input())
+    A = int(input())
 
-print "Ingrese un valor de 4 digitos para B:",
-B = int(raw_input())
+print("Ingrese un valor de 4 digitos para B:")
+B = int(input())
 
 while B < 1000 or B > 9999:
-    B = int(raw_input())
+    B = int(input())
 
 C = A + B
 
@@ -34,9 +34,9 @@ A3 = (C / 100) % 10
 A4 = (C / 1000) % 10
 if C > 9999:
     A5 = C / 10000
-print "El valor de A es: %d" % A
-print "D4=%d, D3=%d, D2=%d, D1=%d" %(D4,D3,D2,D1)
-print "El valor de B es: %d" % B
-print "W4=%d, W3=%d, W2=%d, W1=%d" %(W4,W3,W2,W1)
-print "La suma de %d + %d es: %d" % (A,B,C)
-print "A5=%d, A4=%d, A3=%d, A2=%d, A1=%d" %(A5,A4,A3,A2,A1)
+print(f"El valor de A es: {A}" % A)
+print(f"D4={D4}, D3={D3}, D2={D2}, D1={D1}")
+print(f"El valor de B es: {B}")
+print(f"W4={W4}, W3={W3}, W2={W2}, W1={W1}")
+print(f"La suma de {A} + {B} es: {C}")
+print(f"A5={A5}, A4={A4}, A3={A3}, A2={A2}, A1={A1}")

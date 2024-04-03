@@ -8,4 +8,4 @@ while i < 50:
     sumatoria = sumatoria + (i * i)
 
 
-print "La sumatoria de los cuadrados de los primeros 50 numeros es:", sumatoria
+print(f"La sumatoria de los cuadrados de los primeros 50 numeros es: {sumatoria}")

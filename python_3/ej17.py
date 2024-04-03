@@ -5,16 +5,16 @@ b = 0
 c = 0
 producto = 0
 # calular el mod es %
-print "Ingrese un valor mayor que 0:"
+print("Ingrese un valor mayor que 0:")
 while a <= 0:
-    a = int(raw_input())
+    a = int(input())
 
-print "Ingrese otro valor mayor que 0:"
+print("Ingrese otro valor mayor que 0:")
 while b <= 0:
-    b = int(raw_input())
+    b = int(input())
 
 while c < b:
     producto = producto + a
     c += 1
 
-print "El producto de %d veces %d es: %d" % (a,b,producto)
+print(f"El producto de {a} veces {b} es: {producto}")
